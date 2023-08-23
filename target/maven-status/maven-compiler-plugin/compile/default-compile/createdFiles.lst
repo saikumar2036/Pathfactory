@@ -1,0 +1,4 @@
+pages\BasePage.class
+pages\MagentoLoginPage.class
+pages\MagentoHomePage.class
+util\ExtentReportListener.class

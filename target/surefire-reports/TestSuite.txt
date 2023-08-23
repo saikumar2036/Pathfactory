@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 139.266 s <<< FAILURE! - in TestSuite
+verifyLoginSectionErrorValidation(tests.magentoLoginPageTest)  Time elapsed: 12.063 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: email-error (tried for 10 second(s) with 500 milliseconds interval)
+	at tests.magentoLoginPageTest.verifyLoginSectionErrorValidation(magentoLoginPageTest.java:46)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #email\-error
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MADMAX', ip: '192.168.1.103', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210208133944, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 17996, moz:profile: C:\Users\saism\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: be88c633-4ec1-4598-a42f-1e98a73681ca
+*** Element info: {Using=id, value=email-error}
+	at tests.magentoLoginPageTest.verifyLoginSectionErrorValidation(magentoLoginPageTest.java:46)
+
